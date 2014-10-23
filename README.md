@@ -2,7 +2,7 @@
 
 This is part 2 of the data projects course project. It contains the slidify presentation for the shiny app.
 
-gh-pages: 381265947.github.io/DataProducts-Slidify
+gh-pages: http://381265947.github.io/DataProducts-Slidify/
 
 ---
 
