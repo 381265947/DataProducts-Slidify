@@ -9,9 +9,6 @@ hitheme     : tomorrow      #
 widgets     : [bootstrap, quiz]            # {mathjax, quiz, bootstrap}
 mode        : selfcontained # {standalone, draft}
 knit        : slidify::knit2slides
----
-
-Hello. Let's talk about lists of numbers.
 
 --- &radio
 
@@ -28,7 +25,19 @@ People are always tossing around lists of numbers. What else would we do with th
 
 ---
 
+Hello. Let's talk about lists of numbers. Sometimes you have a list of numbers and you are desperate to average them. Well I've got a way for you to do that - along with visualizing the numbers. Does that sound like a great tool to have?
+
+Well, enjoy: https://courseradude.shinyapps.io/project/
+
+Github: https://github.com/381265947/DataProductsCourseProject
+
+<img src="assets/img/dwarf.jpg" />
+
+---
+
 # Here's the code
+
+Notice that spaces are handled properly because we live in the future.
 
 
 ```r
@@ -44,7 +53,7 @@ avg;
 
 ---  
 
-# Here are the results
+# Here's the visualization
 
 
 ```r
@@ -53,17 +62,3 @@ abline(h = avg);
 ```
 
 ![plot of chunk unnamed-chunk-2](assets/fig/unnamed-chunk-2.png) 
-
----
-
-Does that sound like a great tool to have?
-
-Well, enjoy: https://courseradude.shinyapps.io/project/
-
-Github: https://github.com/381265947/DataProductsCourseProject
-
----
-
-# Goodbye!
-
-<img src="assets/img/dwarf.jpg" />
