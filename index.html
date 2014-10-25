@@ -44,14 +44,6 @@
 
     <!-- SLIDES -->
     <slide class="" id="slide-1" style="background:;">
-  <article data-timings="">
-    <p>Hello. Let&#39;s talk about lists of numbers.</p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-2" style="background:;">
   <hgroup>
     <h2>Do you ever need to average lists of numbers?</h2>
   </hgroup>
@@ -81,12 +73,28 @@
   <!-- Presenter Notes -->
 </slide>
 
+<slide class="" id="slide-2" style="background:;">
+  <article data-timings="">
+    <p>Hello. Let&#39;s talk about lists of numbers. Sometimes you have a list of numbers and you are desperate to average them. Well I&#39;ve got a way for you to do that - along with visualizing the numbers. Does that sound like a great tool to have?</p>
+
+<p>Well, enjoy: <a href="https://courseradude.shinyapps.io/project/">https://courseradude.shinyapps.io/project/</a></p>
+
+<p>Github: <a href="https://github.com/381265947/DataProductsCourseProject">https://github.com/381265947/DataProductsCourseProject</a></p>
+
+<p><img src="assets/img/dwarf.jpg" /></p>
+
+  </article>
+  <!-- Presenter Notes -->
+</slide>
+
 <slide class="" id="slide-3" style="background:;">
   <hgroup>
     <h1>Here&#39;s the code</h1>
   </hgroup>
   <article data-timings="">
-    <pre><code class="r">text &lt;- &quot;1, 2, 3, 4&quot;;
+    <p>Notice that spaces are handled properly because we live in the future.</p>
+
+<pre><code class="r">text &lt;- &quot;1, 2, 3, 4&quot;;
 nums &lt;- sapply(strsplit(text, &quot;\\s*,\\s*&quot;), as.numeric);
 avg &lt;- mean(nums);
 avg;
@@ -101,7 +109,7 @@ avg;
 
 <slide class="" id="slide-4" style="background:;">
   <hgroup>
-    <h1>Here are the results</h1>
+    <h1>Here&#39;s the visualization</h1>
   </hgroup>
   <article data-timings="">
     <pre><code class="r">plot(nums);
@@ -114,42 +122,19 @@ abline(h = avg);
   <!-- Presenter Notes -->
 </slide>
 
-<slide class="" id="slide-5" style="background:;">
-  <article data-timings="">
-    <p>Does that sound like a great tool to have?</p>
-
-<p>Well, enjoy: <a href="https://courseradude.shinyapps.io/project/">https://courseradude.shinyapps.io/project/</a></p>
-
-<p>Github: <a href="https://github.com/381265947/DataProductsCourseProject">https://github.com/381265947/DataProductsCourseProject</a></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
-<slide class="" id="slide-6" style="background:;">
-  <hgroup>
-    <h1>Goodbye!</h1>
-  </hgroup>
-  <article data-timings="">
-    <p><img src="assets/img/dwarf.jpg" /></p>
-
-  </article>
-  <!-- Presenter Notes -->
-</slide>
-
     <slide class="backdrop"></slide>
   </slides>
   <div class="pagination pagination-small" id='io2012-ptoc' style="display:none;">
     <ul>
       <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=1 title=''>
+        data-slide=1 title='Do you ever need to average lists of numbers?'>
          1
       </a>
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=2 title='Do you ever need to average lists of numbers?'>
+        data-slide=2 title=''>
          2
       </a>
     </li>
@@ -161,20 +146,8 @@ abline(h = avg);
     </li>
     <li>
       <a href="#" target="_self" rel='tooltip' 
-        data-slide=4 title='Here are the results'>
+        data-slide=4 title='Here&#39;s the visualization'>
          4
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=5 title=''>
-         5
-      </a>
-    </li>
-    <li>
-      <a href="#" target="_self" rel='tooltip' 
-        data-slide=6 title='Goodbye!'>
-         6
       </a>
     </li>
   </ul>
